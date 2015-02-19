@@ -2,6 +2,18 @@
 
 
 @section('contenido')
-	<h1>{{ $nombre }}</h1><h2>{{ $apellido }}</h2>
+
+
+@if(count($apoyo))
+
+	<h1>personas</h1>
+
+	<ul>
+		@foreach ($apoyo  as $persona)
+				<li>{{ $persona }}</li>
+		@endforeach
+	</ul>
 
 @stop
+
+@endif

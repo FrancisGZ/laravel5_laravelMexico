@@ -13,11 +13,12 @@ class paginasController extends Controller {
 		$nombre = "Francis Gonzalez"; 
 		return view('paginas/acerca')->with('nombre',$nombre);*/
 
+		/*tercer form
 		$datos = [];
 		$datos['nombre'] = 'Francis';
 		$datos['apellido'] = 'Gonzalez';
 
-		return view('paginas/acerca',$datos);
+		return view('paginas/acerca',$datos);*/
 
 		//Segunda forma
 		/*return view('paginas/acerca')->with([
@@ -26,11 +27,21 @@ class paginasController extends Controller {
 			]);*/
 
 
-		//tercer forma
+		/*cuarta forma
 		$nombre = "Francis"; 
 		$apellido = "Gonzalez"; 
 
-		return view ('paginas/acerca', compact('nombre', 'apellido'));
+		return view ('paginas/acerca', compact('nombre', 'apellido'));*/
+
+
+		
+
+		//$apoyo = ['xxxx','yyyy','zzzzzz'];
+
+		$apoyo = [];
+
+			return view('paginas/acerca',compact('apoyo'));
+
 		
 	}
 

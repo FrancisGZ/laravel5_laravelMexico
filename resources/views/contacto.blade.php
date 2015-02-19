@@ -11,5 +11,5 @@
 	
 	<script>
 			alert("javascript");
-	</script>
+	</script>	
 @stop
