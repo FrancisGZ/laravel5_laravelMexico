@@ -2,6 +2,9 @@
 
 	Route::get('acerca','paginasController@acerca');
 
+	Route::get('contacto','paginasController@contacto');
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
